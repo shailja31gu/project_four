@@ -36,7 +36,11 @@ If you haven’t used tinyurl.com before, please try creating a new shortened UR
 ### Models
 - Url Model
 ```
-{ urlCode: { mandatory, unique, lowercase, trim }, longUrl: {mandatory, valid url}, shortUrl: {mandatory, unique} }
+{ 
+    urlCode: { mandatory, unique, lowercase, trim }, 
+    longUrl: {mandatory, valid url}, 
+    shortUrl: {mandatory, unique} 
+}
 ```
 
 ### POST /url/shorten

@@ -8,7 +8,7 @@ const router = express.Router()
 
 
 router.post('/url/shorten',urlController.createUrl)
-router.get('/:urlCode',urlController.redirect)
+router.get('/:urlCode',urlController.redirectToUrl)
 
 
 
